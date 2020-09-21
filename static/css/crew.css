@@ -1,0 +1,195 @@
+.brand-logo {
+  margin-top: 5px;;
+}
+
+.menu_name {
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  height: 22px;
+  padding-left: 15px;
+}
+
+.menu_name  a {
+  color: #1C1D5D;
+}
+
+
+.language {
+  font-weight: bold;
+  text-transform: none !important;
+}
+
+.person {
+  background-color: white;
+  border-radius: 16px;
+}
+
+.flag {
+  height: 70%;
+  width: 70%;
+}
+
+.container {
+  width: 100%;
+}
+
+.fa-home, .fa-user-graduate, .fa-chalkboard-teacher,.fa-gamepad ,.fa-handshake , .fa-briefcase {
+  font-size: 15px;
+}
+
+.icons {
+  display: inline-block;
+  width: 25px;
+}
+
+.sidenav .disable {
+  color: rgba(0, 0, 0, 0.87);
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  height: 48px;
+  line-height: 48px;
+  padding: 0 32px
+}
+
+.section-icons {
+  background-color: #F0F3FB;
+}
+
+.name-person {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 20px;
+  /* identical to box height */
+
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #4560F5;
+}
+
+.avatar {
+  height: 70%;
+  width: 70%;
+  padding-top: 24px;
+  /*border-radius: 60%;*/
+
+}
+
+.animate img:nth-child(2) {
+  display: none;
+}
+
+.animate:hover img:nth-child(2) {
+  display: inline-block;
+}
+
+.animate:hover img:nth-child(1) {
+  display: none;
+}
+
+.fa-telegram-plane, .fa-facebook-f, .fa-youtube, .fa-vk, .fa-github, .fa-linkedin-in, .fa-stack-overflow, .fa-twitter { 
+  font-size: 20px;
+  color: black;
+}
+
+.flow-text {
+  text-align: justify;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 200%;
+  /* or 28px */
+
+  letter-spacing: 0.01em;
+
+  /* Primary/Primary - 900 */
+
+  color: #1C1D5D;
+}
+.icons-person {
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+}
+
+.crew-role {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 15px;
+  /* identical to box height */
+
+  text-align: left;
+  letter-spacing: 0.02em;
+
+  /* Primary/Primary - 900 */
+
+  color: #1C1D5D;
+  opacity: 0.4;
+}
+
+.crew-city, .crew-education {  
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 1%;
+}
+.line-person {
+  opacity: 0.1;
+  margin-bottom: 16px;
+  margin-top: 16px;
+  border: 1px solid #4560F5;
+  transform: rotate(-180deg);
+}
+
+.img-person {
+  padding: 16px;
+  max-width: 250px;
+  max-height: 250px;
+}
+
+.crew-city {
+  padding-top: 16px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 17px;
+  /* identical to box height */
+
+  letter-spacing: 0.02em;
+
+  /* Gray */
+
+  color: #8A8A8A;
+}
+
+.crew-education {
+  font-size: 1.2rem;
+}
+
+.language-ru {
+  margin-left: 4vw;
+}
+
+@media only screen and (max-width: 992px) {
+  .col {
+    display: block;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+}
+.icons-social {
+  color: white !important;
+}
+
+.black-back {
+  background: rgba(0,0,0,0.88);
+  color: white;
+}
+
+

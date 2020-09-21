@@ -1,0 +1,223 @@
+.brand-logo {
+    margin-top: 5px;
+    ;
+}
+
+.material-icons {
+    color: #0D47A1;
+}
+
+.language a {
+    font-family: Montserrat;
+    font-weight: bold;
+    text-transform: none !important;
+    color: #1C1D5D;
+}
+
+.language-en, .language-ru {
+    margin-left: 10px;
+    color: #1C1D5D;
+}
+
+.menu_name {
+    font-family: Montserrat;
+    font-weight: 600;
+    height: 22px;
+    padding-left: 15px;
+}
+
+.menu_name a {
+    color: #1C1D5D;
+}
+
+.main-header {
+    background-color: white !important;
+}
+
+.language {
+    font-weight: bold;
+    text-transform: none !important;
+}
+
+.flag {
+    height: 70%;
+    width: 70%;
+}
+
+.container {
+    width: 100%;
+}
+
+.fa-home, .fa-user-graduate, .fa-chalkboard-teacher, .fa-gamepad, .fa-handshake, .fa-briefcase {
+    font-size: 15px;
+}
+
+.icons {
+    display: inline-block;
+    width: 25px;
+}
+
+.sidenav .disable {
+    color: rgba(0, 0, 0, 0.87);
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    height: 48px;
+    line-height: 48px;
+    padding: 0 32px
+}
+
+.fa-telegram-plane, .fa-facebook-f, .fa-youtube, .fa-vk, .fa-github, .fa-linkedin-in, .fa-stack-overflow, .fa-twitter {
+    font-size: 20px;
+    color: black;
+}
+
+.flow-text {
+    text-align: justify;
+}
+
+.language-ru {
+    margin-left: 4vw;
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 28%;
+    position: relative;
+    height: 0;
+}
+
+.black-back {
+    background: #1C1D5D !important;
+    color: white;
+    font-family: Montserrat;
+}
+
+.list-footer {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto auto auto;
+    padding-top: 2vh;
+    text-align: center;
+}
+
+
+.page-footer {
+    padding-top: 0;
+}
+
+/*.join-text {*/
+/*    margin-top: 10%;*/
+/*}*/
+
+.address {
+    opacity: 0.5;
+}
+
+.sections-registration {
+    height: max-content;
+    min-height: 80vh;
+}
+
+.registration-reasons {
+    text-align: left;
+}
+
+.header-reasons {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #1C1D5D;
+    margin-bottom: 50px;
+}
+/*.sections-vacancies {*/
+/*    height: 100vh;*/
+/*}*/
+
+.reasons-item {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    color: #1C1D5D;
+    margin-bottom: 50px;
+    min-width: 480px;
+}
+
+.btn-play:hover {
+    background-color: #4560F5;
+}
+
+.btn-play {
+    position: absolute;
+    top: 40%;
+    left: 42%;
+    transform: translate(-10%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    cursor: pointer;
+    border-radius: 5px;
+    z-index: 100;
+}
+
+.reasons-item img {
+    margin-right: 20px;
+}
+
+.form-registr {
+    width: 300px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.course-item {
+    display: inline;
+}
+
+.waves-light {
+    display: block;
+    background-color: #4560F5;
+    font-family: Montserrat;
+    font-style: normal;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.input-field {
+    text-align: center;
+}
+
+.have-account {
+    color: #1C1D5D;
+}
+
+@media only screen and (max-width: 992px) {
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+
+@media only screen and (min-height: 600px) {
+    .register {
+        display: block;
+        margin-bottom: 135%;
+    }
+}
+
+.icons-social {
+    color: white !important;
+}
+
+.black-back {
+    background: rgba(0, 0, 0, 0.88);
+    color: white;
+}

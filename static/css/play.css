@@ -1,0 +1,128 @@
+.brand-logo {
+  margin-top: 5px;;
+}
+
+.menu_name {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.language {
+  font-weight: bold;
+  text-transform: none !important;
+}
+
+.flag {
+  height: 70%;
+  width: 70%;
+}
+
+.container {
+  width: 100%;
+}
+
+.fa-home, .fa-user-graduate, .fa-chalkboard-teacher,.fa-gamepad ,.fa-handshake , .fa-briefcase {
+  font-size: 15px;
+}
+
+.icons {
+  display: inline-block;
+  width: 25px;
+}
+
+.sidenav .disable {
+  color: rgba(0, 0, 0, 0.87);
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  height: 48px;
+  line-height: 48px;
+  padding: 0 32px
+}
+
+.section-icons {
+  background-image: url("../img/play-back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.play {
+  height: 100vh;
+}
+
+.play-icons {
+  width: 250px;
+  height: 250px;
+}
+
+.games {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto auto;
+  grid-row-gap: 20px;
+  grid-column-gap: 10px;
+}
+
+.codescombat {
+  grid-column: 1 / span 2;
+}
+.header-games {
+  color: white;
+  background: black;
+  padding-bottom: 10px;
+}
+
+.fa-telegram-plane, .fa-facebook-f, .fa-youtube, .fa-vk, .fa-github, .fa-linkedin-in, .fa-stack-overflow, .fa-twitter { 
+  font-size: 20px;
+  color: black;
+}
+
+.flow-text {
+  text-align: justify;
+}
+
+.meme {
+  height: auto;
+  width: 40%;
+}
+
+.language-ru {
+  margin-left: 4vw;
+}
+.icons-social {
+  color: white !important;
+}
+
+.black-back {
+  background: rgba(0,0,0,0.88);
+  color: white;
+}
+
+@media only screen and (max-width: 992px) {
+  
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 575px) {
+
+  .play-icons {
+    width: 100px;
+    height: 100px;
+  }
+}
+.threed:hover {
+  box-shadow:
+          1px 1px white,
+          2px 2px white,
+          3px 3px white,
+          4px 4px white,
+          5px 5px white,
+          6px 6px white,
+          7px 7px white;
+  -webkit-transform: translateX(-7px);
+  transform: translateX(-7px);
+}
+
+

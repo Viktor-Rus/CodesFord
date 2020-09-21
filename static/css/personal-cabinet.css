@@ -1,0 +1,222 @@
+
+html, body {
+    min-width: 300px;
+}
+
+header {
+    min-height: 100vh;
+}
+
+.brand-logo {
+    margin-top:2px;
+    margin-right: 2px;
+    width: 84px;
+    height: 84px;
+}
+
+.menu_name {
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    height: 22px;
+    padding-left: 15px;
+
+}
+
+.menu_name  a {
+    color: #1C1D5D;
+}
+
+.language a {
+    font-weight: bold;
+    text-transform: none !important;
+    color:  #1C1D5D;
+}
+.icons {
+    color:  #1C1D5D;
+}
+
+.signin {
+    color: #4560F5;
+}
+
+.signup{
+    background-color: #4560F5;
+    color: white;
+}
+
+
+.language-en, .language-ru {
+    margin-left: 10px;
+    color: #1C1D5D;
+}
+
+nav ul a {
+    padding: 0 10px;
+}
+
+.material-icons {
+    color: #0D47A1;
+}
+
+.flag {
+    height: 15px;
+    width: 15px;
+
+}
+
+.container {
+    width: 90%;
+
+}
+
+.parallax {
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.parallax-item-1 {
+    background-image: url("../img/handshake.png");
+}
+
+.parallax-item-2 {
+    background-image: url("../img/choose.jpg");
+}
+
+.parallax-item-3 {
+    background-image: url("../img/contract.png");
+}
+
+.fa-home, .fa-user-graduate, .fa-chalkboard-teacher,.fa-gamepad ,.fa-handshake , .fa-briefcase {
+    font-size: 15px;
+}
+
+.icons {
+    display: inline-block;
+    width: 25px;
+}
+
+.sidenav .disable {
+    color: rgba(0, 0, 0, 0.87);
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    height: 48px;
+    line-height: 48px;
+    padding: 0 32px
+}
+
+/*one slaider*/
+.main-header {
+    background-color: #F4F6FC;
+    background-size: cover;
+    background-position: center;
+
+    color: #fff;
+    height: max-content;
+}
+
+.main-header .showcase {
+    padding-top: 100px;
+}
+
+.nav-menu {
+    background: white !important;
+}
+
+.slider .slides {
+    background-color: transparent ;
+}
+
+.carousel .indicators .indicator-item {
+    border-radius: 0;
+    height: 10px;
+    width: 15px;
+}
+
+.nav-wrapper {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto ;
+}
+#nav-mobile {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+
+
+.header-sec {
+    margin-bottom: 8vh;
+}
+
+.personal-info {
+    color: black;
+    margin-top: 4vh;
+}
+.user-settings {
+    width: 70%;
+}
+
+.photo-user {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.upload-photo {
+
+}
+.save-users {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    text-align: center;
+}
+.save, .cancel {
+    display: inline;
+}
+.save {
+    margin-right: 4vw;
+}
+
+.card-body {
+    text-align: center;
+
+}
+
+.card-header {
+    letter-spacing: 0.02em;
+    line-height: 17px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 992px) {
+
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+.icons-social {
+    color: white !important;
+}
+
+.black-back {
+    background: rgba(0,0,0,0.88);
+    color: white;
+}
+
+@media (max-width: 576px) {
+    .personal-settings {
+        display: none;
+    }
+
+}
+
+
+
+

@@ -1,0 +1,98 @@
+.brand-logo {
+    margin-top: 5px;;
+}
+
+.menu_name {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.language {
+    font-weight: bold;
+    text-transform: none !important;
+}
+
+.flag {
+    height: 70%;
+    width: 70%;
+}
+
+.container {
+    width: 100%;
+}
+
+.fa-home, .fa-user-graduate, .fa-chalkboard-teacher,.fa-gamepad ,.fa-handshake , .fa-briefcase {
+    font-size: 15px;
+}
+
+.icons {
+    display: inline-block;
+    width: 25px;
+}
+
+.sidenav .disable {
+    color: rgba(0, 0, 0, 0.87);
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    height: 48px;
+    line-height: 48px;
+    padding: 0 32px
+}
+
+.section-icons {
+ background: #D6B5A7;;
+    height: 100vh;
+}
+.tests {
+    color: white;
+}
+.prize {
+    margin-right: 10px;
+    font-size: 30px;
+    color: deepskyblue;
+}
+.tests-list {
+    line-height: 3;
+    font-size: 20px;
+    color: white;
+    text-align: left;
+    margin-left: 20vw;
+}
+
+.tests-reviews {
+    font-size: 25px;
+    color: white;
+    font-style: italic;
+}
+
+.fa-telegram-plane, .fa-facebook-f, .fa-youtube, .fa-vk, .fa-github, .fa-linkedin-in, .fa-stack-overflow, .fa-twitter {
+    font-size: 20px;
+    color: black;
+}
+
+.flow-text {
+    text-align: justify;
+}
+
+.language-ru {
+    margin-left: 4vw;
+}
+
+@media only screen and (max-width: 992px) {
+
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+.icons-social {
+    color: white !important;
+}
+
+.black-back {
+    background: rgba(0,0,0,0.88);
+    color: white;
+}
+
+

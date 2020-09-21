@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165444829-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-165444829-1');
+  </script>
+  <noscript>
+    <div><img src="https://mc.yandex.ru/watch/62535670" style="position:absolute; left:-9999px;" alt="" /></div>
+  </noscript>
+  <!-- /Yandex.Metrika counter -->
+
+  <meta charset="UTF-8">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="static/css/materialize.min.css" media="screen">
+  <link type="text/css" rel="stylesheet" href="static/css/main.css">
+
+  <!--Import Easy Scroll Dots-->
+  <link href="static/dist/easyScrollDots.css" rel="stylesheet">
+  <script src="static/dist/easyScrollDots.js"></script>
+
+  <!--Favicon-->
+  <link rel="icon" type="image/png" sizes="32x32" href="static/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="static/favicon/favicon-16x16.png">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+  <!--  revealator-->
+  <script src="static/js/jquery-1.11.3.min.js"></script>
+  <script src="static/js/fm.revealator.jquery.js"></script>
+  <link rel="stylesheet" href="static/css/fm.revealator.jquery.css">
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <!--  Open Graph-->
+  <meta property="og:locale" content="en_EN">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Codesford.com">
+  <meta property="og:description" content="It is best time to learn coding from scratch!">
+  <meta property="og:url" content="https://codesford.com/">
+  <meta property="og:image" content="{% static 'website/img/header-bogy.png' %}">
+  <meta property="og:site_name" content="Codesford.com">
+
+  <title>Codesford</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <div>
+    <div class="scroll-indicator" id="section01" data-scroll-indicator-title="Main"></div>
+  </div>
+  <header class="main-header">
+
+    <nav class="nav-menu z-depth-0 transparent">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="index.html" class="brand-logo"><img height="50px" src="static/img/logo.svg" alt="Logo"></a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <!-- Desktop menu -->
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li class="menu_name"><a href="index.html">Main</a></li>
+            <li class="menu_name"><a href="study/index.html">Study</a></li>
+            <li class="menu_name" style="padding-right: 100px"><a href="crew/index.html">Crew</a></li>
+
+            <li class="menu-login"><a href="accounts/signin.html" class="signin">Sign In</a></li>
+            <li class="menu-login"><a href="accounts/register.html" class="signup">Sign Up</a></li>
+
+            <li class="language language-en"><span class="icons"><img class="flag"
+                  src="static/img/icons/en.png" alt="" value="en"></span>En</li>
+            <li class="language"><a href="ru/index.html"><span class="icons"><img class="flag"
+                    src="static/img/icons/ru.png" alt="" value="ru"></span>Ру</a></li>
+
+          </ul>
+        </div>
+      </div>
+
+    </nav>
+    <!-- Mobile menu -->
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="index.html">Main</a></li>
+      <li><a href="crew/index.html">Crew</a></li>
+      <li><a href="study/index.html">Study</a></li>
+
+      <li class="menu-login"><a href="accounts/signin.html" title="Sign in" class="signin">Sign In</a></li>
+      <li class="menu-login"><a href="accounts/register.html" title="Sign up" class="signup">Sign Up</a></li>
+      <li class="language"><a href="ru/index.html"><span class="icons"><img class="flag"
+              src="static/img/icons/ru.png" alt="" value="ru"></span>Ру</a></li>
+      <li class="language disable"><span class="icons"><img class="flag" src="static/img/icons/uk.png"
+            alt="" value="en"></span>En</li>
+    </ul>
+    <ul class="body_slides">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+    <h2 class="header-body">It is best time to learn <br> coding from scratch!</h2>
+
+
+  </header>
+
+  <!-- Section: About project -->
+  <div>
+    <div class="scroll-indicator" id="section02" data-scroll-indicator-title="About"></div>
+  </div>
+  <section class="white-back lighten-2 center" id="about">
+    <div class="container">
+      <h2 class="section-header-dark">About project</h2>
+      <h3 class="pain-header">Potentional issues of users</h3>
+      <div class="about-body">
+        <div class="row">
+          <div class="col s12 m6 l4 revealator-zoomin">
+            <div class="problems">
+              <div class="problems-number">01</div>
+              <div class="problems-text">Difficult to find effective programming courses</div>
+            </div>
+          </div>
+          <div class="col s12 m6 l4 revealator-zoomin revealator-delay1">
+            <div class="problems">
+              <div class="problems-number">02</div>
+              <div class="problems-text">Ordinary old courses</div>
+            </div>
+          </div>
+          <div class="col s12 m6 l4 revealator-zoomin revealator-delay2">
+            <div class="problems">
+              <div class="problems-number">03</div>
+              <div class="problems-text">Hard to find a job</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: problem solving -->
+  <div>
+    <div class="scroll-indicator" id="section03" data-scroll-indicator-title="solving"></div>
+  </div>
+  <section class="section black-back lighten-2 center" id="solving">
+    <div class="container">
+      <h3 class="solution">Solution</h3>
+      <div class="row">
+        <div class="solving col s12 m6 l4 revealator-fade revealator-duration10">
+          <div class="solving-icons"><img src="static/img/solving1.png"></div>
+          <div class="solving-text">We will train just in development (HTML5, CSS3, Front-end, Back-end, QA testing,
+            Team Leadership, IT Architecture, etc.), not in everything</div>
+        </div>
+        <div class="solving col s12 m6 l4 revealator-fade revealator-delay2 revealator-duration10">
+          <div class="solving-icons"><img src="static/img/solving2.png"></div>
+          <div class="solving-text">Train not only with the help of texts and videos, but also with the help of
+            homework, tasks, projects</div>
+        </div>
+        <div class="solving col s12 m6 pull-m3 l4 revealator-fade revealator-delay4 revealator-duration10">
+          <div class="solving-icons"><img src="static/img/solving3.png"></div>
+          <div class="solving-text">It will be possible to pass tests and exams on our web site and to get a serious
+            certificate with a serial number or you can prepare for third-party certification</div>
+        </div>
+        <div class="solving col s12 m6 l4 revealator-fade revealator-delay6 revealator-duration10">
+          <div class="solving-icons"><img src="static/img/solving4.png"></div>
+          <div class="solving-text">Successful students will be able to take practice on our startup, and they will also
+            be able to get recommendations on paper or in electronic form</div>
+        </div>
+        <div class="solving col s12 m6 l4 revealator-fade revealator-delay8 revealator-duration10">
+          <div class="solving-icons"><img src="static/img/solving7.png"></div>
+          <div class="solving-text">We will help in finding ads about employment, giving advice on how to write your CV
+            with a portfolio, how to find jobs with a high salary, and how to prepare for an interview</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Price -->
+  <div>
+    <div class="scroll-indicator" id="section04" data-scroll-indicator-title="Price"></div>
+  </div>
+  <section class="section white-back accent-1 center" id="price">
+    <div class="container">
+      <h2 class="section-header header-sec">You can set the desired price</h2>
+      <div class="row">
+        <div class="col s12 m12 l6 revealator-slideright">
+          <p class="flow-text"><span class="codesford">CodesFord</span> is an educational and gaming project where you
+            can study technology to find a
+            developer's job.
+            Have you long dreamed of getting an education at Oxford level?!</p>
+
+          <p class="flow-text fat">If you want not to learn, but to teach other people, then we can place your course on
+            our marketplace.</p>
+        </div>
+        <div class="col s12 m12 l6 revealator-slideleft">
+          <img class="img-money" src="static/img/Img_money.svg">
+        </div>
+      </div>
+    </div>
+    <div class="parallax parallax-item-1"></div>
+  </section>
+
+  <!-- Section: EdTech + GameTech + HRTech = CodesFord -->
+  <div>
+    <div class="scroll-indicator" id="section05" data-scroll-indicator-title="Codesford"></div>
+  </div>
+  <section class="section black-back accent-2 center" id="codesford">
+    <div class="container">
+      <h2 class="section-header header-sec">Business model</h2>
+      <div class="row">
+        <div class="col s12 m12 l7 revealator-slideright">
+          <h4 class="business-header">EdTech + GameTech + HRTech = CodesFord</h4>
+          <p class="text-business">Our startup is at the junction of three technologies: EdTech, GameTech and HRTech.
+            Despite the fact that a
+            lot of useful elements will be free on our web site and inside in our mobile apps, our team plans to develop
+            a commercial project. In this regard, we will be grateful to users for feedback and for orders for paid
+            products, for example, Initial Professional Orientation, training interactive courses, assistance in finding
+            your future job, and much more that you need</p>
+        </div>
+        <div class="col s12 m12 l5 revealator-slideleft">
+          <img class="img-business" src="static/img/Business-model_svg.png">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: The Reasons to choose Our Expert Services -->
+  <div>
+    <div class="scroll-indicator" id="section06" data-scroll-indicator-title="Reasons"></div>
+  </div>
+  <section class="section white-back lighten-1 center" id="reasons">
+    <div class="container">
+      <h2 class="section-header header-sec">The Reasons to choose Our Expert Services</h2>
+      <div class="row">
+        <div class="col s12 m12 l6 revealator-slideright">
+          <img class="img-reasons" src="static/img/Reasons.png">
+        </div>
+        <div class="col s12 m12 l6 revealator-slideleft">
+          <p class="flow-text">Our team understands that we have competitors. There are other sites where you can study
+            programming. But
+            there you cannot ask for your tuition price. They tell you the price. There are many IT enthusiasts who
+            would like to start some IT trainings, demanding their price. At the same time, there are also many
+            experienced developers and teachers who would like to earn extra money, but do not know how much their IT
+            development course can cost. Our marketplace helps junior developers to set the desired price for studying
+            in programming courses</p>
+        </div>
+      </div>
+    </div>
+    <div class="parallax parallax-item-2"></div>
+  </section>
+
+  <!-- Section: Where you can use our service -->
+  <div>
+    <div class="scroll-indicator" id="section07" data-scroll-indicator-title="Where you can use"></div>
+  </div>
+  <section class="section white-back center" id="where">
+    <div class="container">
+      <h2 class="section-header header-sec">Where you can use our service</h2>
+      <div class="row">
+        <div class="col s12 m12 l6">
+          <p class="flow-text">If you want to study Computer Science at Oxford, then it is long and expensive.
+            But in the modern world
+            there are projects that allow you to get knowledge at a decent level. Surely, at a sufficient level for your
+            employment in a sustainable company, where you will have a good salary. Or, having sufficient knowledge, you
+            can develop your own business project.</p>
+          <p class="flow-text">If it doesn’t matter to you that the building in which you study is not like
+            Hogwarts, and if you do not
+            want to leave your relatives and friends for years, then you can study from home or from any place where
+            there is Internet and your device with Internet (laptop or smartphone). You do not have to spend tens or
+            even hundreds of thousands of dollars to study at the university. You can get the necessary knowledge from
+            the field of Computer Science for a lower budget. Moreover, you now have the opportunity to demand your
+            desired price for a particular course. For example, if you want to take an introductory IT course, then this
+            can be an absolutely reasonable price. Or, if you want to study web development in more depth, it can cost
+            more, but still not tens or hundreds of thousands of dollars.
+            Nowadays, any person from any city in the world has the opportunity to remotely study on a convenient
+            schedule in a short time at an affordable price.</p>
+          <p class="flow-text">If you want not to study, but to teach, then our project gives you the opportunity
+            to transfer your
+            knowledge in an interactive way. Thus, you can earn money, being anywhere in the world.</p>
+        </div>
+        <div class="col s12 m12 l6 revealator-slideleft">
+          <img class="img-service" src="static/img/service.png">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Refund Guaranteed -->
+  <div>
+    <div class="scroll-indicator" id="section08" data-scroll-indicator-title="Refund Guaranteed"></div>
+  </div>
+  <section class="section white-back darken-1 center" id="guarantee">
+    <div class="container revealator-slideup">
+      <h2 class="section-header">Refund Guaranteed</h2>
+      <div class="row">
+        <div class="col s12">
+          <p class="flow-text">If you do not like the course, then you can always send a request for a refund. All funds
+            for the course,
+            excluding the service fee and transfer fee, will be returned to your bank card</p>
+        </div>
+      </div>
+    </div>
+    <div class="parallax parallax-item-3"></div>
+  </section>
+
+  <!-- Section: Crew -->
+  <div>
+    <div class="scroll-indicator" id="section09" data-scroll-indicator-title="Crew"></div>
+  </div>
+  <section class="section section-icons black-back center" id="crew">
+    <div class="container">
+      <h2 class="crew-header white-text">Crew</h2>
+      <div class="row">
+        <div class="col s12 m6 l4 revealator-rotateright">
+          <div class="employee ">
+            <div class="crew-position">Trainee IT Specialist</div>
+            <img class="crew-avatar" src="static/img/Oleg-head.jpg">
+            <div class="name-city"><b>Oleg</b> <br> Melbourne</div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4 revealator-rotateright revealator-delay1">
+          <div class="employee">
+            <div class="crew-position">Big Data Expert</div>
+            <img class="crew-avatar" src="static/img/Jane.svg">
+            <div class="name-city"><b>Jane</b> <br> Melbourne</div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4 revealator-rotateright revealator-delay2">
+          <div class="employee">
+            <div class="crew-position">Team Lead</div>
+            <img class="crew-avatar" src="static/img/Evgeniy.svg">
+            <div class="name-city"><b>John</b> <br> Krasnoyarsk</div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4 revealator-rotateright revealator-delay3">
+          <div class="employee">
+            <div class="crew-position">Full Stack Developer</div>
+            <img class="crew-avatar" src="static/img/Viktor.svg">
+            <div class="name-city"><b>Victor</b> <br> Penza</div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4 revealator-rotateright revealator-delay4">
+          <div class="employee">
+            <div class="crew-position">Head of Marketing </div>
+            <img class="crew-avatar" src="static/img/Marie.jpg">
+            <div class="name-city"><b>Maria</b> <br> Moscow</div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4 revealator-rotateright revealator-delay5">
+          <div class="employee">
+            <div class="crew-position">Marketer</div>
+            <img class="crew-avatar" src="static/img/stas.jpg">
+            <div class="name-city"><b>Stanislav</b> <br> Moscow</div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4 revealator-rotateright revealator-delay6">
+          <div class="employee">
+            <div class="crew-position">Quality Assurance Manual & Automation Test Engineer</div>
+            <img class="crew-avatar" src="static/img/ivan.jpg">
+            <div class="name-city"><b>Ivan</b> <br> Tolyatti</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <div>
+    <div class="scroll-indicator" id="section10" data-scroll-indicator-title="Contacts"></div>
+  </div>
+  <!-- Footer -->
+  <footer class="page-footer black-back darken-2" id="contacts">
+
+    <!-- Map -->
+    <div class="map-responsive">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3157.7684975402503!2d144.91644641531485!3d-37.678147179777206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65a884af12a1f%3A0xcc6725131d70e540!2s59-69%20Pearcedale%20Parade%2C%20Broadmeadows%20VIC%203047!5e0!3m2!1sen!2sau!4v1590832676337!5m2!1sen!2sau"
+        frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m3">
+          <p>Address</p>
+          <p class="address">59-69 Pearcedale Parade Broadmeadows VIC 3047</p>
+
+        </div>
+        <div class="col s12 m6">
+          <div class="list-footer">
+            <a class="grey-text text-lighten-3" href="index.html">Main</a>
+            <a class="grey-text text-lighten-3" href="study/index.html">Study</a>
+            <a class="grey-text text-lighten-3" href="crew/index.html">Crew</a>
+          </div>
+        </div>
+        <div class="col s12 m3">
+          <p class="join-text">Join us on social networks</p>
+          <a href="https://www.youtube.com/channel/UCAJdCHneL0v4Ad38UVaCjbg" target="_blank"><img
+              src="static/img/youtube.svg"></a>
+          <a href="https://t.me/CodesFord" target="_blank"><img src="static/img/telegram.svg"></a>
+          <a href="https://www.facebook.com/CodesFord2020" target="_blank"><img
+              src="static/img/facebook.svg"></a>
+        </div>
+      </div>
+      <hr class="hr-footer">
+      <div class="footer-copyright black-back darken-3">
+        <div class="container">
+          <div class="row">
+            <div class="col s12 m3">
+              <span>&copy; 2020 CodesFord</span>
+            </div>
+            <div class="col s12 m6 center">
+              <span class="language"><a href="ru/index.html" style="color: white"><span class="icons"><img class="flag"
+                                                                           src="static/img/icons/ru.png" alt="" value="ru"></span>Ру</a></span>
+              <span class="language"><span class="icons"><img class="flag"
+                                                              src="static/img/icons/en.png" alt="" value="en"></span>En</span>
+            </div>
+            <div class="col s12 m3">
+              <a class="grey-text text-lighten-4 right" href="mailto:email@codesford.com">email@codesford.com</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="static/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.carousel').carousel();
+      setInterval(function () {
+        $('.carousel').carousel('next');
+      }, 4000);
+      $('.carousel.carousel-slider').carousel({
+        fullWidth: true,
+        indicators: true
+      });
+      $('.sidenav').sidenav();
+      $('.modal').modal();
+    });    
+  </script>
+
+  <script>
+    easyScrollDots({
+
+      // sets to true if you have a fixed navigation
+      'fixedNav': false,
+
+      // unique ID of your fixed navigation
+      'fixedNavId': '',
+
+      // set to true if your navigation is only sticky when scrolling up
+      'fixedNavUpward': false
+
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,264 @@
+.brand-logo {
+  margin-top: 5px;;
+}
+
+.language a {
+  font-family: Montserrat;
+  font-weight: bold;
+  text-transform: none !important;
+  color:  #1C1D5D;
+}
+
+.language-en, .language-ru {
+  margin-left: 10px;
+  color: #1C1D5D;
+}
+
+.menu_name {
+  font-family: Montserrat;
+  font-weight: 600;
+  height: 22px;
+  padding-left: 15px;
+}
+
+.menu_name  a {
+  color: #1C1D5D;
+}
+
+.main-header {
+  background-color: white !important;
+}
+
+.language {
+  font-weight: bold;
+  text-transform: none !important;
+}
+
+.flag {
+  height: 70%;
+  width: 70%;
+}
+
+.container {
+  width: 100%;
+}
+
+.fa-home, .fa-user-graduate, .fa-chalkboard-teacher,.fa-gamepad ,.fa-handshake , .fa-briefcase {
+  font-size: 15px;
+}
+
+.icons {
+  display: inline-block;
+  width: 25px;
+}
+
+.sidenav .disable {
+  color: rgba(0, 0, 0, 0.87);
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  height: 48px;
+  line-height: 48px;
+  padding: 0 32px
+}
+
+.section-icons {
+  background-color: #F4F6FC !important;
+}
+
+.fa-telegram-plane, .fa-facebook-f, .fa-youtube, .fa-vk, .fa-github, .fa-linkedin-in, .fa-stack-overflow, .fa-twitter { 
+  font-size: 20px;
+  color: black;
+}
+
+.flow-text {
+  text-align: justify;
+}
+
+
+.language-ru {
+  margin-left: 4vw;
+}
+
+.sections-vacancies{
+ height: max-content;
+}
+.find-job {
+  letter-spacing: 0.04em;
+  font-family: Montserrat;
+  color: #1C1D5D;
+}
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 28%;
+  position: relative;
+  height: 0;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.page-footer {
+  padding-top: 0;
+}
+
+/*.join-text {*/
+/*  margin-top: 10%;*/
+/*}*/
+
+.address {
+  opacity: 0.5;
+}
+
+.black-back {
+  background: #1C1D5D !important;
+  color: white;
+  font-family: Montserrat;
+}
+.video-html {
+  width: 50vw;
+  height: 50vh;
+}
+collection a.collection-item {
+  color: #4560F5 !important;
+}
+.search-form {
+  background: #FFFFFF;
+  border-radius: 8px;
+  height: 64px;
+}
+.search-button {
+  margin-top: 10px;
+  background-color: #4560F5;
+  border-radius: 8px;
+  width: 80px;
+}
+.chip {
+  background-color: #4560F5;
+  color: white;
+}
+
+/*result-search*/
+.result-item {
+  padding: 20px 24px;
+  min-height: min-content;
+  height: 96px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+}
+.result-search {
+  width: 100%;
+}
+.collapsible {
+  border-radius: 8px;
+}
+.descr-vacancies {
+  text-align: left;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #1C1D5D;
+}
+.button-vacancies {
+  text-align: left;
+  margin-top: 10px;
+}
+.link-click {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.02em;
+  color: #000000;
+  opacity: 0.5;
+  margin-right: 24px;
+}
+.link-respond {
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.02em;
+  color: #4560F5;
+  margin-right: 24px;
+}
+.vacancies-name {
+  text-align: left;
+  display: grid;
+  grid-template-columns: max-content auto;
+  grid-template-rows: auto;
+}
+.logo-company {
+margin-right: 20px;
+}
+
+.result-header {
+  display: inline;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1C1D5D;
+  margin-bottom: 6px;
+}
+.result-descr {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #8A8A8A;
+  margin-top: 6px;
+}
+
+.vacancies-fee {
+  text-align: right;
+}
+@media only screen and (max-width: 992px) {
+  
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+.icons-social {
+  color: white !important;
+}
+
+.black-back {
+  background: rgba(0,0,0,0.88);
+  color: white;
+}
+
+@media (max-width: 600px) {
+
+.vacancies-location{
+  text-align: left;
+}
+  .vacancies-fee {
+    text-align: left;
+  }
+  .link-add {
+    display: none;
+  }
+  .link-not {
+    text-align: left;
+  }
+
+  .link-respond {
+    text-align: right;
+  }
+
+}
